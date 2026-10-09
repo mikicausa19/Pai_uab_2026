@@ -131,7 +131,6 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 12px;
     margin: 0;
-    box-shadow:  -5px -5px -5px 1px #060606;
 }
 
 .parts div {

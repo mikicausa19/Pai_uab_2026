@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telecomunicaciones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+    h1 {
+      text-align: center;
+      color: #0f172a;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #1d4ed8;
+      margin-top: 25px;
+    }
+    p, li {
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .destacado {
+      background: #e0f2fe;
+      border-left: 5px solid #0284c7;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Telecomunicaciones</h1>
+
+    <p>
+      Las <strong>telecomunicaciones</strong> son el conjunto de tecnologías y sistemas
+      que permiten la <strong>transmisión de información a distancia</strong>. Es decir,
+      sirven para que personas, dispositivos o redes puedan comunicarse aunque estén
+      separados físicamente.
+    </p>
+
+    <h2>1. ¿Qué es la información?</h2>
+    <p>
+      La información puede ser de distintos tipos, como:
+    </p>
+    <ul>
+      <li>voz</li>
+      <li>texto</li>
+      <li>imágenes</li>
+      <li>video</li>
+      <li>datos digitales</li>
+    </ul>
+
+    <p>Ejemplos comunes son:</p>
+    <ul>
+      <li>una llamada telefónica</li>
+      <li>un mensaje de WhatsApp</li>
+      <li>una videollamada</li>
+      <li>la conexión a internet</li>
+      <li>la transmisión de radio o televisión</li>
+    </ul>
+
+    <h2>2. Elementos básicos de una telecomunicación</h2>
+    <p>Todo sistema de telecomunicaciones normalmente tiene estos elementos:</p>
+    <ul>
+      <li><strong>Emisor:</strong> quien envía la información.</li>
+      <li><strong>Canal:</strong> el medio por donde viaja la información.</li>
+      <li><strong>Receptor:</strong> quien recibe la información.</li>
+      <li><strong>Señal:</strong> la forma en que se representa la información.</li>
+      <li><strong>Modulación:</strong> proceso para adaptar la señal para que viaje mejor.</li>
+    </ul>
+
+    <h2>3. Tipos de señales</h2>
+    <p>Las señales pueden ser:</p>
+    <ul>
+      <li><strong>Analógicas:</strong> cambian de forma continua, como la voz humana.</li>
+      <li><strong>Digitales:</strong> se representan con valores discretos, como 0 y 1.</li>
+    </ul>
+    <p>
+      La mayoría de las redes actuales usan señales digitales porque son más rápidas,
+      más seguras y más fáciles de procesar.
+    </p>
+
+    <h2>4. Medios de transmisión</h2>
+    <p>La información puede viajar a través de distintos medios, por ejemplo:</p>
+    <ul>
+      <li><strong>Cables:</strong> par trenzado, cable coaxial, fibra óptica.</li>
+      <li><strong>Sin cables:</strong> radiofrecuencia, microondas, satélite, infrarrojos.</li>
+      <li><strong>Telefonía móvil:</strong> redes celulares para enviar voz y datos.</li>
+    </ul>
+
+    <h2>5. Ejemplos de telecomunicaciones</h2>
+    <ul>
+      <li>telefonía fija y móvil</li>
+      <li>radio</li>
+      <li>televisión</li>
+      <li>internet</li>
+      <li>redes de computadoras</li>
+      <li>comunicación satelital</li>
+      <li>sistemas de emergencia y seguridad</li>
+    </ul>
+
+    <h2>6. Importancia de las telecomunicaciones</h2>
+    <p>
+      Son fundamentales porque permiten que las personas se comuniquen en distintas
+      ciudades, países o continentes, además de facilitar el acceso a la información,
+      el trabajo remoto, el entretenimiento y la conexión entre dispositivos.
+    </p>
+
+    <div class="destacado">
+      <strong>En resumen:</strong> las telecomunicaciones son la tecnología que hace
+      posible enviar información a distancia mediante señales y redes para que un
+      emisor y un receptor puedan comunicarse.
+    </div>
+  </div>
+</body>
+</html>
