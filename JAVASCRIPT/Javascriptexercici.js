@@ -37,24 +37,24 @@ i veure que passa (si passa alguna cosa).
 */
 
 //a.
-var a = 1;
-var a = 2;
-console.log(a); // surt un 2 ja que la variable a s'ha declarat dues vegades i l'ultim valor assignat és 2. 
+//var a = 1;
+//var a = 2;
+//console.log(a); // surt un 2 ja que la variable a s'ha declarat dues vegades i l'ultim valor assignat és 2. 
 
 //b.-
-var a = 1;
-let a = 2;
-console.log(a); //surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant let després d'haver-la declarat amb var.  
+//var a = 1;
+//let a = 2;
+//console.log(a); //surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant let després d'haver-la declarat amb var.  
 
 //c.-
-let a = 1;
-var a = 2; 
-console.log(a)//surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant var després d'haver-la declarat amb let.
+//let a = 1;
+//var a = 2; 
+//console.log(a)//surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant var després d'haver-la declarat amb let.
 
 //d.-
-let a = 1;
-let a = 2;
-console.log(a); //surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant let després d'haver-la declarat amb let.
+//let a = 1;
+//let a = 2;
+//console.log(a); //surt un error ja que no es pot declarar un a variable amb el mateix nom utlitzant let després d'haver-la declarat amb let.
 
 //3.1.- Quines d'aquestes assignacions són correctes i quines no? Tracta cada assignació com si fos independent.
 //let a = 5; (correcte)
@@ -67,3 +67,23 @@ console.log(a); //surt un error ja que no es pot declarar un a variable amb el m
 //let n = 35va; (incorrecte)
 
 //3.2.-enim un programa que té les assignacions que tenim a continuació. Hi ha, però, una línia errònia. Quina és? Escriu en un paper quina creus que és i desprès executa el codi. Fixa't en l'error que et dona el navegador.
+
+//let a = 5;
+//let b = c;
+//c = 7; // en el programa ens surt que no troba la variable c, ja que no l'hem declarat abans d'assignar-li un valor. Per tant, la línia errònia és la segona. 
+
+//3.3.-De quins tipus són les dades que assignem a aquestes variables?
+//let a = 55; (Numèriques)
+//let b = 55.5; (Numèriques)
+//let c = "Hola"; (cadena de caracters)
+//let d = 'Hola'; (cadena de caracters)
+//let e = true; (logic)
+
+//4.1.-Quins valors s'escriuran a la consola després d'executar aquest codi?
+let a = 25;
+let b = 15 + a;
+let c = b * 2;
+console.log(a,b,c);
+
+
+
