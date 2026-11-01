@@ -249,4 +249,172 @@
 //         console.log("Número de mes no vàlid")
 // }
 
-// 
+// 15.2.- Un usuari va a una gelateria i per calcular el cost del seu gelat té un ordinador on posa dues dades:
+// 1. Si vol un conus (c) o una terrina (t). El conus té un cost base de 3.45 i la terrina de 3.95
+// 2. Quin d’aquests sabors vol:
+// 1. Vainilla o Xocolata. No cal afegir res
+// 2. Turró, Menta o Oreo. Caldrà afegir 0.5 al preu final.
+// 3. Crema, Gerds o Ametlles. Caldrà afegir 1 al preu final.
+// Fes servir la instrucció switch per fer el càlcul de l’increment de preu associat al sabor.
+// Si l’usuari posa alguna dada malament, el missatge que es posarà a la consola serà “Error dades mal introduïdes”. Si totes les dades són correctes, escriurà el preu final
+
+// let conus = 3.45 
+// let terrina = 3.95 
+// switch(sabor){
+//     case "Vainilla":
+//         console.log("Preu terrina: " + terrina && "Preu conus: " + conus)
+//         break
+//     case "Xocolota":
+//         console.log("Preu terrina: " + terrina && "Preu conus: " + conus)
+//         break
+//     case "Turro":
+//         console.log("Preu terrina: " + (0.5 + terrina) && "Preu conus: " + (0.5 + conus))
+//         break
+//     case "Menta":
+//         console.log("Preu terrina: " + (0.5 + terrina) && "Preu conus: " + (0.5 + conus))
+//         break
+//     case "Oreo":
+//         console.log("Preu terrina: " + (0.5 + terrina) && "Preu conus: " + (0.5 + conus))
+//         break 
+//     case "Crema":
+//         console.log("Preu terrina: " + (1 + terrina) && "Preu conus: " + (1 + conus))
+//         break
+//     case "Gerds":
+//         console.log("Preu terrina: " + (1 + terrina) && "Preu conus: " + (1 + conus))
+//         break
+//     case "Ametlles":
+//         console.log("Preu terrina: " + (1 + terrina) && "Preu conus: " + (1 + conus))
+//         break
+//     default:
+//         console.log("Error dades mal introduïdes")
+// }
+
+// 15.3.- Escriu un programa, que donat una lletra que representa un dia de la setmana (l - dilluns, m - dimarts, x - dimecres, j - dijous, …) escrigui a la consola si el dia és laborable o festiu. Són laborables de dilluns a divendres. Fes servir la instrucció switch.
+
+// let dia = "l"
+// switch(dia){
+//     case "l":
+//         console.log("laborable")
+//         break 
+//     case "m":
+//         console.log("laborable")
+//         break
+//     case"x":
+//         console.log("laborable")
+//         break
+//     case "j":
+//         console.log("laborable")
+//         break
+//     case "v":
+//         console.log("laborable")
+//         break
+//     case "s":
+//         console.log("festiu")
+//         break
+//     case "d":
+//         console.log("festiu")
+//         break
+//     default:
+//         console.log("Error lletra no vàlida")
+// }
+
+// Bucles for 
+// 16.1.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola 10 cops el text “Estem fent bucles”.
+
+// let text = ""
+// let i; 
+// for (i = 0; i <= 10; i++) {
+//     text += "Estem fent bucles" + "<br>";
+// }
+// document.write(text)  
+
+// 16.2.- Escriu, fent servir la instrucció for, un programa que escrigui a la consola tots els nombres del 5 al 20.
+
+// text = ""
+// let i;
+// for (i = 5; i <= 20; i++) {
+//     text += i + "<br>"
+// }
+// document.write(text)  
+
+// 16.3.- Escriu un programa que, donat un nombre N, escrigui a la consola la suma de tots els nombres entre 1 i N. 
+
+// let i;
+// let N = number(prompt("Introdueix un número"))
+// let suma = 0
+// for (i = 1; i <= N; i++) {
+//     suma += i
+// }
+// document.write(suma)
+
+// 16.4.- Escriu un programa que, donat un nombre N, escrigui a la consola el factorial d’aquest nombre. El factorial és la multiplicació de tots els números entre 1 i N.
+
+// let N = number(prompt("Introdueix un número"))
+// let factorial = 1
+// let i;
+// for (i = 1; i <= N; i++) {
+//     factorial *= i
+// }
+// document.write(factorial)
+
+// 16.5.- Escriu un programa que, donat dos números N i M (on N sempre serà menor que M) calculi la suma de tots els números entre N i M (ambdós inclosos).
+
+// let N = number(prompt("Introdueix un número"))
+// let M = number(prompt("Introdueix un número"))
+// let suma = 0
+// let i;
+// for (i = N; i <= M; i++) {
+//     suma += i
+// }
+// document.write(suma)
+
+// 16.6.- Escriu un programa que, donat un número N, calculi la suma de tots els números parells entre 2 i N
+
+// let N = number(prompt("Introdueix un número"))
+// let suma = 0
+// let i;
+// for (i = 2; i <= N; i += 2) {
+//     suma += i
+// }
+// document.write(suma)
+
+// 16.7.- Escriu un programa que, donat un número N, escrigui a la consola la taula de multiplicar de N.
+
+// let N = number(prompt("Introdueix un número"))
+// let i;
+// for (i = 1; i <= 10; i++) {
+//     document.write(N + " x " + i + " = " + (N * i) + "<br>")
+// }
+
+// 16.8.- Escriu un programa que, donat un número N, escrigui a la consola tots els números de N a 1 (per tant, en ordre descendent). Observa el que passa si N < 1
+
+// let N = number(prompt("introdueix un número"))
+// let i;
+// for (i = N; i >= 1; i--){
+//     document.write(i + "<br>")
+// }
+// Es important que N sigui un número major o igual a 1, ja que si N és menor que 1, el bucle no s'executarà i no es mostrarà cap resultat.
+
+// 16.9.- Escriu un programa que donat un número N, escrigui N asteriscos (*)
+
+// let N = number(prompt("Introdueix un número"))
+// let i;
+// for (i = 1; i <= N; i++) {
+//     document.write("*")
+// }
+
+// 16.10.- Escriu un programa que donat un número N, escrigui el següent dibuix (cas que el número introduït sigui 5).
+// *
+// **
+// ***
+// ****
+// *****
+
+let N = number(prompt("Introdueix un número"))
+let i, j;
+for (i = 1; i <= N; i++) {
+    for (j = 1; j <= i; j++) {
+        document.write("*");
+    }
+    document.write("<br>");
+}
