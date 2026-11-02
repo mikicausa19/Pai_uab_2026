@@ -16,7 +16,7 @@
 // 13.3 Escriu un programa que, donat un número llegit amb prompt, escrigui “el número llegit és parell” si el número es parell, o “el número llegit és senar”, si és senar. Fes servir un if per cada cas.
 
 // let numero = number(prompt("introdueix un numero"));
-// if (numero %2 == 0){
+// if (numero % 2 == 0){
 //     console.log("el numero és parell")
 // } else{ 
 //     console.log("el número llegit és senar")
@@ -260,6 +260,7 @@
 
 // let conus = 3.45 
 // let terrina = 3.95 
+// let sabor = prompt("Introdueix un sabor")
 // switch(sabor){
 //     case "Vainilla":
 //         console.log("Preu terrina: " + terrina && "Preu conus: " + conus)
@@ -547,7 +548,7 @@
 // let text = "";
 // let i = 2;
 // do {
-//     if (N % i === 0) {
+//     if (N % i === 0) {}
 //         text = "El número no és primer";
 //         break;
 //     }
